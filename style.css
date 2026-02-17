@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    padding: 30px 15px; /* Increased padding for more space */
+    background-color: #2d2d2d;
+    border-bottom: 2px solid #444; /* Slightly thicker border */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem; /* Bigger title */
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1rem; /* Increased font size */
+    color: #ccc;
+}
+
+#search-bar {
+    width: 70%; /* Wider search bar */
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 8px; /* Rounder corners */
+    border: 2px solid #555; /* Thicker border */
+    background-color: #2a2a2a;
+    color: white;
+    font-size: 1.2rem; /* Larger font */
+}
+
+#search-bar:focus {
+    outline: none;
+    border-color: #777;
+}
+
+main {
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+    height: 100%; /* Full height */
+}
+
+#matches-section {
+    width: 35%; /* Make the left section larger */
+    background-color: #2b2b2b;
+    padding: 20px;
+    border-radius: 12px; /* Bigger corners */
+    border: 2px solid #444; /* Thicker border */
+    max-height: 500px; /* Larger height */
+    overflow-y: auto;
+}
+
+#matches-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#matches-list h3 {
+    color: #ddd;
+    margin: 25px 0 12px; /* More space */
+}
+
+#matches-list li {
+    padding: 18px;
+    margin-bottom: 15px; /* Bigger gaps */
+    background-color: #333;
+    border-radius: 8px; /* Larger corners */
+    cursor: pointer;
+    transition: background 0.2s;
+    border: 2px solid #444; /* Thicker border */
+}
+
+#matches-list li:hover {
+    background-color: #3b3b3b;
+}
+
+.match-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-side {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Increased gap */
+    width: 150px; /* Larger section for team info */
+}
+
+.team-logo {
+    height: 40px; /* Bigger logos */
+    width: 40px;
+    object-fit: contain;
+}
+
+.team-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.match-score {
+    width: 100px; /* Bigger score section */
+    text-align: center;
+    font-size: 1.3rem; /* Larger font */
+    font-weight: bold;
+}
+
+#details-section {
+    width: 65%; /* Make the right section larger */
+    background-color: #2b2b2b;
+    padding: 20px;
+    border-radius: 12px; /* Bigger corners */
+    border: 2px solid #444; /* Thicker border */
+    max-height: 500px; /* Larger height */
+    overflow-y: auto;
+}
+
+#match-summary {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #444; /* Thicker border */
+    margin-bottom: 25px;
+}
+
+.match-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444;
+    padding: 18px; /* Larger padding */
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.team-block {
+    text-align: center;
+    width: 30%; /* Wider team blocks */
+}
+
+.header-logo {
+    height: 60px; /* Bigger header logos */
+    width: 60px;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
+
+.header-score {
+    font-size: 2rem; /* Larger score font */
+    font-weight: bold;
+    width: 45%;
+    text-align: center;
+}
+
+#stats-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#stats-table td {
+    border: 2px solid #444; /* Thicker border for stats table */
+    padding: 12px; /* Bigger padding */
+}
+
+#stats-table tr:nth-child(even) {
+    background-color: #3a3a3a;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 1rem; /* Larger footer text */
+    color: #aaa;
+}
